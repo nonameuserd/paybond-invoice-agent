@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "scripts": {
+    "smoke": "paybond agent sandbox smoke --preset saas --result-body '{\"status\":\"completed\",\"cost_cents\":2900}' --format json"
+  }
+}
